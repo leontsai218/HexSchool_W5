@@ -1,5 +1,42 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.logo {
+    height: 40px;
+    width: fit-content;
+}
+
+.menu {
+    background-color: #f8f9fa;
+    width: 296px;
+    height: 100%;
+    flex: 1 1 auto;
+}
+
+.function-name {
+    display: flex;
+    align-items: center;
+
+    .mdi {
+        font-size: 24px;
+        height: 24px;
+        margin-right: 16px;
+        display: flex;
+        align-items: center;
+    }
+}
+
+.user-photo {
+    background-image: url("../images/andychen.jpeg");
+    background-size: cover;
+    width: 40px;
+    height: 40px;
+    border-radius: 100%;
+}
+
+.user-name {
+  line-height: 19px;
+}
+
+.user-email {
+  font-size: 14px;
+  line-height: 17px;
+  color: #6c757d;
 }
